@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "../build",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

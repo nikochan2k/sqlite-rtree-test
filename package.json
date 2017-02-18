@@ -1,0 +1,29 @@
+{
+  "name": "sqlite3-rtree-test",
+  "version": "1.2.1",
+  "description": "Test SQLite3 RTree Index",
+  "main": "build/app/app.js",
+  "scripts": {
+    "prebuild": "rimraf build",
+    "build": "tsc -p src/ || true",
+    "test": "mocha build/test --require source-map-support/register || true",
+    "clean": "rimraf build"
+  },
+  "author": "Yoshihiro Seki",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/mocha": "^2.2.39",
+    "@types/node": "^7.0.5",
+    "@types/sinon": "^1.16.35",
+    "@types/sqlite3": "^2.2.32",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.7",
+    "source-map-support": "^0.4.11",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
